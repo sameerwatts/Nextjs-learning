@@ -13,7 +13,7 @@ const EventItem = (props) => {
     year: "numeric",
   });
 
-  const exploreLink = `/event/${id}`;
+  const exploreLink = `/events/${id}`;
 
   const formattedAddress = location.replace(", ", "\n");
   return (
